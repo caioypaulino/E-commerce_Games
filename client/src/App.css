@@ -1,0 +1,28 @@
+.App--container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.register--container {
+  padding: 1rem 2rem;
+  border: 0.3rem solid black;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+
+.register--title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: monospace;
+}
+
+.register--button {
+  padding: 0.2rem 0.5rem;
+}
+
+.register--input{
+  display: block;
+  padding: 0.7rem 0;
+  margin: 1rem auto;
+}

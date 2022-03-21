@@ -3,8 +3,9 @@ const router = express.Router();
 
 const pool = require('../database');
 
+
 router
-.route("/")
+.route("/cadastro")
 //create cliente
 .post(async (req, res) => {
     try {
@@ -16,6 +17,8 @@ router
         console.log("The item could not be added!" + err.message);
     }
 })
+router
+.route("/id:/alter_cliente")
 //uptade cliente 
 .put(async (req, res) =>{
     try {
